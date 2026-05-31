@@ -17,10 +17,19 @@ Plan mode extension for pi — read-only exploration mode with plan creation and
 ## Installation
 
 ```bash
-# Install from local path
-pi install ~/Projects/pi-plan-mode
+# From npm
+pi install npm:@erasin/pi-plan-mode
 
-# Enable plan mode on startup
+# From git
+pi install git:github.com/erasin/pi-plan-mode
+
+# From local path
+pi install ~/Projects/pi-plan-mode
+```
+
+Enable plan mode on startup with the `--plan` flag:
+
+```bash
 pi --plan
 ```
 

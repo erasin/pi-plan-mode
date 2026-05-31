@@ -15,10 +15,19 @@ Plan mode 扩展 — 为 pi 提供只读探索模式，支持创建计划、跟�
 ## 安装
 
 ```bash
+# 从 npm 安装
+pi install npm:@erasin/pi-plan-mode
+
+# 从 git 安装
+pi install git:github.com/erasin/pi-plan-mode
+
 # 从本地路径安装
 pi install ~/Projects/pi-plan-mode
+```
 
-# 启动时自动启用 plan 模式
+启动时自动启用 plan 模式：
+
+```bash
 pi --plan
 ```
 
