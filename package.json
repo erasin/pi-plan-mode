@@ -1,0 +1,53 @@
+{
+  "name": "pi-plan-mode",
+  "version": "1.0.0",
+  "description": "Plan mode extension for pi - read-only exploration with plan creation and progress tracking",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "plan-mode",
+    "exploration",
+    "read-only",
+    "planning"
+  ],
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erasin/pi-plan-mode.git"
+  },
+  "homepage": "https://github.com/erasin/pi-plan-mode#readme",
+  "bugs": {
+    "url": "https://github.com/erasin/pi-plan-mode/issues"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-agent-core": "*",
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-agent-core": {
+      "optional": true
+    },
+    "@earendil-works/pi-ai": {
+      "optional": true
+    },
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    },
+    "@earendil-works/pi-tui": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
