@@ -22,6 +22,17 @@
   "bugs": {
     "url": "https://github.com/erasin/pi-plan-mode/issues"
   },
+  "files": [
+    "extensions/",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "README.zh-cn.md"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "pi": {
     "extensions": [
       "./extensions"
